@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "movie-night-drive",
+      "title": "Night Drive",
+      "type": "movie",
+      "genre": [
+        "Action",
+        "Thriller"
+      ],
+      "year": 2022,
+      "duration": "1h 47m",
+      "description": "A rogue courier races through neon streets to deliver evidence before sunrise.",
+      "featured": true,
+      "trending": true,
+      "thumbnail": "/thumbnails/night-drive.svg",
+      "banner": "/thumbnails/night-drive-banner.svg",
+      "filePath": "movies/night-drive.mp4",
+      "subtitlePath": "night-drive.srt",
+      "addedAt": "2026-02-01T11:00:00.000Z"
+    },
+    {
+      "id": "series-skyline-files-s1e1",
+      "title": "Skyline Files: Episode 1",
+      "seriesTitle": "Skyline Files",
+      "season": 1,
+      "episode": 1,
+      "type": "series",
+      "genre": [
+        "Series",
+        "Comedy"
+      ],
+      "year": 2025,
+      "duration": "44m",
+      "description": "Two amateur detectives investigate odd disappearances in their apartment block.",
+      "featured": false,
+      "trending": true,
+      "thumbnail": "/thumbnails/skyline-files.svg",
+      "banner": "/thumbnails/skyline-files-banner.svg",
+      "filePath": "series/skyline-files-s01e01.mp4",
+      "addedAt": "2026-02-14T08:00:00.000Z"
+    },
+    {
+      "id": "movie-laugh-track",
+      "title": "Laugh Track",
+      "type": "movie",
+      "genre": [
+        "Comedy"
+      ],
+      "year": 2021,
+      "duration": "1h 31m",
+      "description": "A struggling writer accidentally turns her worst day into stand-up gold.",
+      "featured": false,
+      "trending": false,
+      "thumbnail": "/thumbnails/laugh-track.svg",
+      "banner": "/thumbnails/laugh-track-banner.svg",
+      "filePath": "movies/laugh-track.mp4",
+      "addedAt": "2026-02-21T19:00:00.000Z"
+    }
+  ]
+}
