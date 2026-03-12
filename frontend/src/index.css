@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-black text-white m-0;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl hover:shadow-black/70;
+}
