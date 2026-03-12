@@ -19,6 +19,24 @@ A Netflix-inspired full-stack app for organizing and playing your downloaded loc
 - Admin panel: scan folder, edit metadata, upload thumbnails, feature content.
 - Responsive layout, lazy-loaded images, smooth hover transitions.
 
+## Run Straight From GitHub (No Local Setup)
+This repo includes a **Dev Container** so you can run it directly in **GitHub Codespaces**.
+
+1. Open your GitHub repo page.
+2. Click **Code** → **Codespaces** → **Create codespace on main**.
+3. Wait for setup to complete (`postCreateCommand` runs `npm run install:all`).
+4. In the Codespaces terminal run:
+   ```bash
+   npm run dev
+   ```
+5. Open the forwarded **5173** port in browser (frontend). Backend runs on **4000**.
+
+> If npm install is blocked by your org registry policy, set npm registry inside the codespace:
+> ```bash
+> npm config set registry https://registry.npmjs.org/
+> npm run install:all
+> ```
+
 ## Project Structure
 
 ```text
@@ -42,7 +60,7 @@ A Netflix-inspired full-stack app for organizing and playing your downloaded loc
 └── package.json
 ```
 
-## Setup
+## Setup (Local Machine)
 1. Install dependencies:
    ```bash
    npm run install:all
